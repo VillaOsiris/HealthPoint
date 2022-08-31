@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: var(--color-primary);
+}
+
+:root {
+  --color-primary: #1e90ff;
+  --white: #ffffff;
+}/*# sourceMappingURL=main.css.map */

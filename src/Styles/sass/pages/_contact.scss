@@ -1,0 +1,95 @@
+.contacts {
+  background: var(--color-primary);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 0 5px 2px var(--color-primary);
+  margin: 0 4rem 0 0;
+  display: flex;
+  font-size: 2rem;
+
+  &__info {
+    flex: 30%;
+    background-image: url(/public/assets/images/contact1.jpg);
+    background-size: cover;
+    line-height: 2;
+    padding: 2rem 4rem;
+
+    & > h2 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      text-shadow: 0 0 5px var(--color-secondary);
+      margin-bottom: 3rem;
+    }
+
+    & > h3 {
+      font-size: 2.5rem;
+    }
+
+    & > p {
+      margin-bottom: 1.8rem;
+    }
+  }
+
+  &__form {
+    flex: 40%;
+    padding: 3rem 4rem;
+
+    & > h2 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      text-shadow: 0 0 5px var(--color-secondary);
+      margin-bottom: 4rem;
+    }
+
+    & > form {
+      display: flex;
+      flex-direction: column;
+    }
+    &--input {
+      width: 100%;
+      height: 4rem;
+      margin-bottom: 2rem;
+      outline: none;
+      border: 1px solid white;
+      border-radius: 5px;
+      padding-left: 5px;
+      font-size: 1.8rem;
+    }
+
+    &--textarea {
+      outline: none;
+      border: 1px solid white;
+      border-radius: 5px;
+      padding-left: 5px;
+      font-size: 1.8rem;
+      width: 100%;
+      height: 16rem;
+      margin-bottom: 3rem;
+    }
+
+    &--btn {
+      width: 40%;
+      margin: auto;
+      padding: 1rem 1rem;
+      border-radius: 150px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: none;
+      box-shadow: 0 0 5px var(--color-secondary);
+    }
+  }
+
+  &__map {
+    flex: 30%;
+    align-self: center;
+    padding: 3rem;
+
+    & > iframe {
+      width: 40rem;
+      height: 35rem;
+      border: "0";
+      border-radius: 5px;
+    }
+  }
+}

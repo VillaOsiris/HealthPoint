@@ -1,0 +1,46 @@
+.cta {
+  background: linear-gradient(
+    0.25turn,
+    rgb(255, 38, 0) 1%,
+    var(--color-secondary)
+  );
+  margin: 4rem auto;
+  padding: 0 4rem 0 6rem;
+  border: 2px solid white;
+  box-shadow: 0 0 10px 3px orangered;
+  border-radius: 100px;
+  height: 15vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+
+  &__text {
+    font-size: 2rem;
+    text-shadow: 0 0 5px var(--color-secondary);
+  }
+
+  &__button {
+    margin-left: auto;
+    padding: 1.5rem 3rem;
+    border-radius: 150px;
+    background: linear-gradient(
+      0.25turn,
+      var(--color-secondary) 1%,
+      rgb(255, 38, 0)
+    );
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 5px 5px 10px 1px var(--color-primary);
+
+    &:hover {
+      transform: scale(110%);
+      box-shadow: 5px 5px 10px 3px var(--color-primary);
+    }
+  }
+}

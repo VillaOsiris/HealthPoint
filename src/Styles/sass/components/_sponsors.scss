@@ -1,0 +1,42 @@
+.sponsors {
+  margin: 2rem auto;
+  font-size: 2rem;
+  text-align: center;
+
+  &__text {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    color: var(--color-primary);
+
+    &::before,
+    &::after {
+      content: "";
+      height: 1px;
+      width: 90%;
+      margin: auto;
+      display: block;
+      background-color: var(--color-primary);
+    }
+  }
+
+  &::after {
+    content: "";
+    height: 1px;
+    width: 95%;
+    margin: auto;
+    display: block;
+    background-color: var(--color-primary);
+  }
+
+  &__logos {
+    display: flex;
+    align-items: center;
+    padding: 0 20rem;
+    justify-content: space-between;
+    margin: 1rem;
+
+    & > img {
+      width: 15rem;
+    }
+  }
+}

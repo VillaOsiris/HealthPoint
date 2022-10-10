@@ -1,0 +1,40 @@
+.hero {
+  &__container {
+    height: 90vh;
+    background: var(--color-primary);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 5px 2px var(--color-primary);
+    margin-right: 4rem;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 4rem;
+
+    & > h3 {
+      font-size: 6rem;
+      text-shadow: 0 0 5px var(--color-secondary);
+    }
+    & > h2 {
+      font-size: 8rem;
+      background: linear-gradient(
+        0.25turn,
+        var(--color-secondary) 5%,
+        rgb(255, 38, 0)
+      );
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  &__img {
+    height: 90vh;
+    transform: translateX(-4.1rem);
+  }
+}

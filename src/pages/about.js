@@ -1,3 +1,5 @@
+import { aboutImg } from "../Utils/images";
+
 function About() {
   return (
     <div className="about">
@@ -25,7 +27,7 @@ function About() {
             push you further!
           </p>
         </div>
-        <img src="/assets/images/about1.jpg" alt="Couple jogging" />
+        <img src={aboutImg} alt="Couple jogging" />
       </div>
     </div>
   );

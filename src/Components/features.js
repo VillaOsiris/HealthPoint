@@ -1,4 +1,5 @@
 import { VscDebugBreakpointLog } from "react-icons/vsc";
+import { SpaImg, classImg, PtImg } from "../Utils/images";
 
 const Features = () => {
   return (
@@ -6,7 +7,7 @@ const Features = () => {
       <div className="features__grid">
         <div className="features__block">
           <img
-            src="/assets/images/pt.jpg"
+            src={PtImg}
             alt="personal trainer photo"
             className="features__img"
           />
@@ -50,18 +51,14 @@ const Features = () => {
             </li>
           </ul>
           <img
-            src="/assets/images/class.jpg"
+            src={classImg}
             alt="cicling class photo"
             className="features__img"
           />
         </div>
 
         <div className="features__block">
-          <img
-            src="/assets/images/spa.jpg"
-            alt="spa photo"
-            className="features__img"
-          />
+          <img src={SpaImg} alt="spa photo" className="features__img" />
           <ul className="features__text">
             <li>
               <VscDebugBreakpointLog />

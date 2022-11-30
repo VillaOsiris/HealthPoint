@@ -4,7 +4,6 @@ import Features from "../Components/features";
 import CTA from "../Components/cta";
 import Gallery from "../Components/gallery";
 import Plans from "../Components/plans";
-import Footer from "../Components/footer";
 
 function Home() {
   return (

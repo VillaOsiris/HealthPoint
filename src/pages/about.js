@@ -1,4 +1,4 @@
-import { aboutImg } from "../Utils/images";
+import aboutImg from "../assets/images/about1.jpg";
 
 function About() {
   return (

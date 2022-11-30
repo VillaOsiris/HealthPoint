@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebookSquare, FaTwitter } from "react-icons/fa";
-import { Logo } from "../Utils/images";
+import Logo from "../assets/images/hp_logo.png";
 
 const Footer = () => {
   return (

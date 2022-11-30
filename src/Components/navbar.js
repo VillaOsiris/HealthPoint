@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
-import { Logo } from "../Utils/images";
+import Logo from "../assets/images/hp_logo.png";
 
 const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);

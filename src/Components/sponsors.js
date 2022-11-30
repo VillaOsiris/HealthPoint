@@ -1,10 +1,8 @@
-import {
-  Sponsor1,
-  Sponsor2,
-  Sponsor3,
-  Sponsor4,
-  Sponsor5,
-} from "../Utils/images";
+import Sponsor1 from "../assets/images/logo1.png";
+import Sponsor2 from "../assets/images/logo2.png";
+import Sponsor3 from "../assets/images/logo3.png";
+import Sponsor4 from "../assets/images/logo4.png";
+import Sponsor5 from "../assets/images/logo5.png";
 
 const Sponsors = () => {
   return (

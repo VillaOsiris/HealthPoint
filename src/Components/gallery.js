@@ -1,17 +1,15 @@
-import {
-  GalImg1,
-  GalImg2,
-  GalImg3,
-  GalImg4,
-  GalImg5,
-  GalImg6,
-  GalImg7,
-  GalImg8,
-  GalImg9,
-  GalImg10,
-  GalImg11,
-  GalImg12,
-} from "../Utils/images";
+import GalImg1 from "../assets/images/gallery_img_1.jpg";
+import GalImg2 from "../assets/images/gallery_img_2.jpg";
+import GalImg3 from "../assets/images/gallery_img_3.jpg";
+import GalImg4 from "../assets/images/gallery_img_4.jpg";
+import GalImg5 from "../assets/images/gallery_img_5.jpg";
+import GalImg6 from "../assets/images/gallery_img_6.jpg";
+import GalImg7 from "../assets/images/gallery_img_7.jpeg";
+import GalImg8 from "../assets/images/gallery_img_8.jpg";
+import GalImg9 from "../assets/images/gallery_img_9.jpg";
+import GalImg10 from "../assets/images/gallery_img_10.jpg";
+import GalImg11 from "../assets/images/gallery_img_11.jpg";
+import GalImg12 from "../assets/images/gallery_img_12.jpg";
 
 const Gallery = () => {
   return (

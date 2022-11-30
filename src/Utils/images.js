@@ -1,5 +1,4 @@
 import aboutImg from "../assets/images/about1.jpg";
-import classImg from "../assets/images/class.jpg";
 import contactImg from "../assets/images/contact1.jpg";
 import GalImg1 from "../assets/images/gallery_img_1.jpg";
 import GalImg2 from "../assets/images/gallery_img_2.jpg";
@@ -23,6 +22,7 @@ import Sponsor4 from "../assets/images/logo4.png";
 import Sponsor5 from "../assets/images/logo5.png";
 import PtImg from "../assets/images/pt.jpg";
 import SpaImg from "../assets/images/spa.jpg";
+import classImg from "../assets/images/class.jpg";
 
 export {
   aboutImg,

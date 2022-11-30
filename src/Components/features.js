@@ -1,5 +1,7 @@
 import { VscDebugBreakpointLog } from "react-icons/vsc";
-import { SpaImg, classImg, PtImg } from "../Utils/images";
+import PtImg from "../assets/images/pt.jpg";
+import SpaImg from "../assets/images/spa.jpg";
+import classImg from "../assets/images/class.jpg";
 
 const Features = () => {
   return (

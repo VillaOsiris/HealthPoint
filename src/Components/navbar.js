@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
+import { Logo } from "../Utils/images";
 
 const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <div className="nav">
       <Link to="/" className="nav__logo">
-        <img src="/assets/images/hp_logo.png" alt="HealthPoint Logo" />
+        <img src={Logo} alt="HealthPoint Logo" />
       </Link>
       <ul className={openNav ? "nav__list show-nav" : "nav__list"}>
         <li className="nav__link">

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebookSquare, FaTwitter } from "react-icons/fa";
+import { Logo } from "../Utils/images";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <section>
         <Link style={{ textDecoration: "none" }} to="/">
           <figure className="footer__logo">
-            <img src="/assets/images/hp_logo.png" alt="HealthPoint Logo" />
+            <img src={Logo} alt="HealthPoint Logo" />
             <h2 className="footer__logo--text">HealthPoint</h2>
           </figure>
         </Link>

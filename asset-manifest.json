@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/HealthPoint/static/css/main.916a14fc.css",
-    "main.js": "/HealthPoint/static/js/main.af7a349a.js",
+    "main.js": "/HealthPoint/static/js/main.06a26e58.js",
     "static/media/contact1.jpg": "/HealthPoint/static/media/contact1.da1a63e3d23630cd9af3.jpg",
     "index.html": "/HealthPoint/index.html",
     "main.916a14fc.css.map": "/HealthPoint/static/css/main.916a14fc.css.map",
-    "main.af7a349a.js.map": "/HealthPoint/static/js/main.af7a349a.js.map"
+    "main.06a26e58.js.map": "/HealthPoint/static/js/main.06a26e58.js.map"
   },
   "entrypoints": [
     "static/css/main.916a14fc.css",
-    "static/js/main.af7a349a.js"
+    "static/js/main.06a26e58.js"
   ]
 }

@@ -1,14 +1,37 @@
 {
   "files": {
     "main.css": "/HealthPoint/static/css/main.916a14fc.css",
-    "main.js": "/HealthPoint/static/js/main.06a26e58.js",
+    "main.js": "/HealthPoint/static/js/main.3241a1fd.js",
+    "static/media/hero1.png": "/HealthPoint/static/media/hero1.114701e00b17ca69e75b.png",
+    "static/media/hero1.jpg": "/HealthPoint/static/media/hero1.27503a0ac572198a8510.jpg",
+    "static/media/class.jpg": "/HealthPoint/static/media/class.51b972a7ff5bd65f3c79.jpg",
+    "static/media/spa.jpg": "/HealthPoint/static/media/spa.d30993a99f5c7f6237db.jpg",
+    "static/media/pt.jpg": "/HealthPoint/static/media/pt.3d76122d4280da54c0fb.jpg",
+    "static/media/gallery_img_11.jpg": "/HealthPoint/static/media/gallery_img_11.d1c8dc46ec592f7d6a0d.jpg",
+    "static/media/gallery_img_12.jpg": "/HealthPoint/static/media/gallery_img_12.56bd531845aa3323e895.jpg",
+    "static/media/gallery_img_3.jpg": "/HealthPoint/static/media/gallery_img_3.8bc609ca29150e912673.jpg",
+    "static/media/gallery_img_10.jpg": "/HealthPoint/static/media/gallery_img_10.631b14822aaee76f5a74.jpg",
+    "static/media/gallery_img_5.jpg": "/HealthPoint/static/media/gallery_img_5.806b9ab9186a2dda545d.jpg",
+    "static/media/gallery_img_4.jpg": "/HealthPoint/static/media/gallery_img_4.174631afadba0d0a9239.jpg",
+    "static/media/gallery_img_1.jpg": "/HealthPoint/static/media/gallery_img_1.4188ae49e7cd8da1b398.jpg",
     "static/media/contact1.jpg": "/HealthPoint/static/media/contact1.da1a63e3d23630cd9af3.jpg",
+    "static/media/gallery_img_8.jpg": "/HealthPoint/static/media/gallery_img_8.5f7fed8ab12b530dd3b7.jpg",
+    "static/media/gallery_img_9.jpg": "/HealthPoint/static/media/gallery_img_9.343d4600ab32fe0228db.jpg",
+    "static/media/gallery_img_7.jpeg": "/HealthPoint/static/media/gallery_img_7.bb6c761741fae92fb4bd.jpeg",
+    "static/media/gallery_img_6.jpg": "/HealthPoint/static/media/gallery_img_6.eef230cf9d6fc26e9bdd.jpg",
+    "static/media/gallery_img_2.jpg": "/HealthPoint/static/media/gallery_img_2.502eb7b0517b79034914.jpg",
+    "static/media/logo5.png": "/HealthPoint/static/media/logo5.6ea3a1defa53c38d7c57.png",
+    "static/media/about1.jpg": "/HealthPoint/static/media/about1.9ba1df4f85ffd8362a38.jpg",
+    "static/media/logo1.png": "/HealthPoint/static/media/logo1.3f6e83e9aa30556a1730.png",
+    "static/media/hp_logo.png": "/HealthPoint/static/media/hp_logo.985aebe6ea902d501270.png",
+    "static/media/logo4.png": "/HealthPoint/static/media/logo4.761b06e6f1b466c3db5f.png",
+    "static/media/logo2.png": "/HealthPoint/static/media/logo2.e151e98da04c99b461e3.png",
     "index.html": "/HealthPoint/index.html",
     "main.916a14fc.css.map": "/HealthPoint/static/css/main.916a14fc.css.map",
-    "main.06a26e58.js.map": "/HealthPoint/static/js/main.06a26e58.js.map"
+    "main.3241a1fd.js.map": "/HealthPoint/static/js/main.3241a1fd.js.map"
   },
   "entrypoints": [
     "static/css/main.916a14fc.css",
-    "static/js/main.06a26e58.js"
+    "static/js/main.3241a1fd.js"
   ]
 }

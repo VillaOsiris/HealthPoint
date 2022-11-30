@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/HealthPoint/static/css/main.916a14fc.css",
-    "main.js": "/HealthPoint/static/js/main.3241a1fd.js",
+    "main.js": "/HealthPoint/static/js/main.10367b9f.js",
     "static/media/hero1.png": "/HealthPoint/static/media/hero1.114701e00b17ca69e75b.png",
-    "static/media/hero1.jpg": "/HealthPoint/static/media/hero1.27503a0ac572198a8510.jpg",
     "static/media/class.jpg": "/HealthPoint/static/media/class.51b972a7ff5bd65f3c79.jpg",
     "static/media/spa.jpg": "/HealthPoint/static/media/spa.d30993a99f5c7f6237db.jpg",
     "static/media/pt.jpg": "/HealthPoint/static/media/pt.3d76122d4280da54c0fb.jpg",
@@ -28,10 +27,10 @@
     "static/media/logo2.png": "/HealthPoint/static/media/logo2.e151e98da04c99b461e3.png",
     "index.html": "/HealthPoint/index.html",
     "main.916a14fc.css.map": "/HealthPoint/static/css/main.916a14fc.css.map",
-    "main.3241a1fd.js.map": "/HealthPoint/static/js/main.3241a1fd.js.map"
+    "main.10367b9f.js.map": "/HealthPoint/static/js/main.10367b9f.js.map"
   },
   "entrypoints": [
     "static/css/main.916a14fc.css",
-    "static/js/main.3241a1fd.js"
+    "static/js/main.10367b9f.js"
   ]
 }

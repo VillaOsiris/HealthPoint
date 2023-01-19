@@ -1,24 +1,17 @@
 .gallery {
-  &__grid {
-    width: 95vw;
-    padding: 2rem;
-    display: grid;
-    background: var(--color-primary);
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    box-shadow: 0 0 5px 2px var(--color-primary);
-    grid-template-areas:
-      "a a b b b c c c"
-      "a a b b b c c c"
-      "d d b b b g g h"
-      "d d e e f g g h"
-      "d d e e k k k h"
-      "i i i j k k k l"
-      "i i i j k k k l";
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(7, 5vw);
-    gap: 2rem;
-  }
+  max-height: max-content;
+  display: grid;
+  grid-template-areas:
+    "a a b b b c c c"
+    "a a b b b c c c"
+    "d d b b b g g h"
+    "d d e e f g g h"
+    "d d e e k k k h"
+    "i i i j k k k l"
+    "i i i j k k k l";
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 5vw);
+  gap: 2rem;
 
   &__item {
     border-radius: 10px;

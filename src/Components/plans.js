@@ -1,6 +1,6 @@
 const Plans = () => {
   return (
-    <section className="plans">
+    <section className="container plans">
       <div className="plan">
         <div className="plan__header">
           <p className="plan__header--title">Regular</p>

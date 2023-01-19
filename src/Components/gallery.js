@@ -13,7 +13,7 @@ import GalImg12 from "../assets/images/gallery_img_12.jpg";
 
 const Gallery = () => {
   return (
-    <section className="gallery__grid">
+    <section className="container gallery">
       <figure className="gallery__item gallery__item--1">
         <img src={GalImg1} alt="" />
       </figure>

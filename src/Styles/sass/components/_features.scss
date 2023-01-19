@@ -1,98 +1,72 @@
 .features {
-  &__grid {
-    height: 80vh;
-    width: 95vw;
-    margin-left: auto;
-    padding: 2rem;
-    background: var(--color-primary);
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    box-shadow: 0 0 5px 2px var(--color-primary);
-  }
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: auto;
+  border-radius: 30px 0 0 30px;
+  overflow: visible;
 
   &__block {
-    width: 55%;
-    margin-bottom: 2rem;
-    position: relative;
-    display: flex;
-    align-items: center;
+    width: 600px;
+    height: 200px;
     border: 2px solid var(--color-secondary);
     box-shadow: 0 0 5px 0px var(--color-secondary);
     border-radius: 15px;
-    height: calc((80vh - 8rem) / 3);
     overflow: hidden;
+    display: flex;
+    gap: 4rem;
   }
 
   &__img {
-    height: 100%;
     border-radius: 15px;
-    margin-right: 2rem;
   }
 
   &__img:nth-child(2) {
     margin-left: auto;
-    margin-right: 0;
   }
 
-  &__text {
+  &__list {
+    margin: auto;
     font-size: 1.5rem;
     list-style-type: none;
-    line-height: 4rem;
+    line-height: 3.5rem;
 
     & > li > span {
       display: inline-block;
-      margin-left: 2rem;
+      margin-left: 1.5rem;
     }
   }
 
-  .features__icon {
-    font-size: 40rem;
-    padding-right: 2rem;
-  }
-}
-
-.lines {
-  position: relative;
-  padding: 0.5rem;
-  overflow: hidden;
-
-  &::before {
-    content: "";
-    background-color: var(--color-secondary);
-    box-shadow: 0 0 10px 2px var(--color-secondary);
-    height: 10rem;
-    width: 100%;
-    position: absolute;
-    z-index: 999;
-    transform: rotate(110deg);
-    left: 27%;
-    top: 30%;
-  }
-
+  &::before,
   &::after {
     content: "";
     background-color: var(--color-secondary);
     box-shadow: 0 0 10px 2px var(--color-secondary);
-    height: 10rem;
-    width: 100%;
+    height: 102%;
+    width: 5vw;
+    transform: skewX(25deg);
     position: absolute;
-    transform: rotate(110deg);
-    left: 35%;
-    bottom: 30%;
+    z-index: 999;
+    top: -1%;
+  }
+
+  &::before {
+    right: 17%;
+  }
+  &::after {
+    right: 25%;
   }
 }
 
 @media (max-width: 1024px) {
   .features {
     &__block {
-      width: 100%;
+      align-self: center;
     }
-  }
-}
 
-@media (max-width: 768px) {
-  html {
-    font-size: 40%;
+    &::before,
+    &::after {
+      display: none;
+    }
   }
 }
 
@@ -100,12 +74,15 @@
   .features {
     &__block {
       width: 100%;
+      gap: 1rem;
     }
 
-    &__text {
-      font-size: 1.4rem;
+    &__list {
+      font-size: 1rem;
+      line-height: 3rem;
 
       & > li > span {
+        display: inline-block;
         margin-left: 1rem;
       }
     }

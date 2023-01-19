@@ -18,20 +18,22 @@ body {
   font-size: 1.5rem;
 }
 
-@media (max-width: 1024px) {
-  html {
-    font-size: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  html {
-    font-size: 40%;
-  }
+.container {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: var(--color-primary);
+  box-shadow: 0 0 5px 2px var(--color-primary);
+  max-height: 80vh;
+  width: 95vw;
+  padding: 3rem;
+  position: relative;
+  display: flex;
+  overflow: hidden;
 }
 
 @media (max-width: 425px) {
-  html {
-    font-size: 40%;
+  .container {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 }

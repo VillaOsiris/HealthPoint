@@ -1,17 +1,27 @@
 .footer {
   background: var(--color-primary);
   display: flex;
+  margin-top: 5vw;
+  padding: 5vh 15vw;
   justify-content: space-between;
-  padding: 6rem 24rem;
-  font-size: 1.5rem;
-  margin-top: 6rem;
+  align-items: center;
+
+  &__brand {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__others {
+    display: flex;
+    gap: 4rem;
+  }
 
   &__logo {
     display: flex;
     margin-bottom: 2rem;
 
     & > img {
-      width: 10rem;
+      width: 100px;
     }
 
     &--text {
@@ -29,7 +39,7 @@
 
   &__header {
     font-size: 1.8rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 2rem;
     text-transform: uppercase;
   }
 
@@ -39,6 +49,7 @@
     line-height: 1.8;
     text-decoration: none;
     transition: 0.25s;
+    margin-bottom: 1rem;
 
     &:hover {
       color: white;
@@ -53,6 +64,28 @@
 
     &:hover {
       color: white;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    margin-top: 5vw;
+    padding: 5vh 15vw;
+
+    &__others {
+      gap: 8rem;
+    }
+
+    &__logo {
+      margin-bottom: 3rem;
+
+      & > img {
+        width: 75px;
+      }
     }
   }
 }
